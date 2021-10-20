@@ -1,0 +1,113 @@
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+  .container {
+    width: 80%;
+    margin:auto;
+    overflow:hidden;
+  
+  }
+  
+  header {
+    margin:0;
+    padding: 32px 0px;
+    color: #ffffff;
+    background-color: #35424a;
+    border-bottom:darkgray 3px solid;
+  }
+
+   header h1 {
+    float:left;
+    font-size: 32px;
+    font-weight: bold;
+  }
+  header nav {
+    float: right;
+    padding-top: 10px;
+  }
+  li  {
+    display:inline;
+    padding-right: 25px;
+  }
+  li a {
+    font-size: 22px;
+    color: #ffffff;
+    text-decoration: none;
+    
+  }
+  .current a{
+    color:darkgray;
+  }
+  a:hover{
+    color:darkgray;
+  }
+
+  .alash {
+    padding: 32px 0;
+    background:#35424a;
+    color:#ffffff;
+  }
+  .alash p {
+    font-weight: bold;
+    font-size: 30px;
+    justify-content: center;
+    width: 65%;
+  }
+ 
+  #main-col {
+    background:#f4f4f4;
+    background: url(https://static.dw.com/image/51431628_303.jpg);
+    background-size: cover;
+  }
+
+  .article {
+    width: 50%;
+    padding:20px 0px;
+  }
+
+  .article-a {
+    font-size: 15px;
+    margin-bottom: 5px;
+    background:#e6e6e6;
+    padding: 20px;
+    border: 1px solid darkgray;
+  }
+  .article-a h3 {
+    font-size: 15px;
+    font-weight: bold;
+    padding: 15px 0px;
+  }
+  .article-a p {
+    font-size: 15px;
+    padding: 7px 0px;
+    line-height: 24px;
+  }
+
+  .photo{
+    float: right;
+    margin-top: -950px;
+  }
+
+  .photo1{
+    float: right;
+    margin-top: -500px;
+  }
+
+  footer {
+    padding: 27px;
+    text-align: center;
+    font-size: 16px;
+    background-color: #35424a;
+    color: "000000";
+  }
+  footer a{
+    font-size: 22px;
+    text-decoration: none;
+    color: #e6e6e6;
+  }
+  
+  
+
+  
